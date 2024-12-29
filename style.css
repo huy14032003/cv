@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "cabin", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f7f8fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #e9ecef;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 100%; /* Ảnh tràn hết chiều ngang container */
+  max-width: 250px; /* Đặt giới hạn chiều ngang tối đa */
+  height: 330px; /* Giữ tỉ lệ ảnh */
+}
+.profile {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.profile h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #212529;
+  margin-bottom: 5px;
+}
+.info {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.info p {
+  color: #000000;
+  margin-right: 35px;
+  font-size: 20px;
+}
+.arrow-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.title {
+  width: 300px;
+  background-color: #000;
+  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.title h3 {
+  font-size: 20px;
+}
+
+.arrow {
+  flex-grow: 1;
+  background-color: #000;
+  height: 2px;
+  margin-left: 10px;
+}
+
+.school {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.school p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.school .date {
+  color: #6c757d;
+  font-style: italic;
+}
+.main {
+  padding: 20px;
+}
