@@ -48,7 +48,7 @@ body {
 }
 .info p {
   color: #000000;
-  margin-right: 25px;
+  margin-right: 13px;
   font-size: 20px;
 }
 .arrow-container {
@@ -110,7 +110,7 @@ body {
     text-align: center;
   }
   .header .info p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .logo {
     width: auto;
